@@ -3,9 +3,10 @@ class Main
 { 
   public static void main(String str[])
     { 
-      int n=1;
-      while (n<11)
-      { System.out.println(n+" ");
-        n=-(~n);}
-    } 
+      int n=19;
+      if (x&1!=0)
+      { System.out.println("odd");}
+      else 
+      { System.out.println("even");}
+     } 
 }
