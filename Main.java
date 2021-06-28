@@ -5,13 +5,17 @@
 Write your code in this editor and press "Run" button to execute it.
 
 *******************************************************************************/
+// java program to print the reverse of the given number // date: 28 june 2021
+
+
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Main {
+public class Reverse {
 
     public static void main(String[] args) {
             int rev=0,r,p;
@@ -28,3 +32,9 @@ public class Main {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
     }
 }
+
+
+// output:
+// Enter your number:
+// Reverse of input number: 54321
+
