@@ -1,6 +1,4 @@
 // java program to print even numbers within given range in reverse order // date: 28 june 2021
-
-
 import java.io.*;
 import java.util.*;
 public class Main
@@ -24,10 +22,9 @@ public class Main
 	    }
 	    }
 }
-
 // output:
 // Enter range lower and upper bounds:
-// 0
+// 10
 // 20
 // 20
 // 18
@@ -35,8 +32,4 @@ public class Main
 // 14
 // 12
 // 10
-// 8
-// 6
-// 4
-// 2
-// 0
+
