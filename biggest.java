@@ -1,4 +1,4 @@
-  
+// program to find out biggest of 4 numbers // date: 26 june 2021  
 import java.io.*;
 import java.util.*;   // import statements
 public class Main
@@ -17,3 +17,9 @@ public class Main
 	    System.out.println("Biggest number is : "+p);
 	}
 }
+
+
+// output:
+// Enter 4 distinct numbers
+// 9 5 1 3
+// Biggest number is : 9
