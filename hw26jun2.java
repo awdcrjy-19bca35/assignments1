@@ -1,3 +1,6 @@
+// program to check whether given alphabet is a vowel or a consonant // date: 26 june 2021
+
+
 import java.io.*;
 import java.util.*;
 public class Main
@@ -26,3 +29,9 @@ public class Main
 	 }
 	}
 }
+
+
+// output:
+// Enter a letter
+// a
+// Input letter is a vowel
