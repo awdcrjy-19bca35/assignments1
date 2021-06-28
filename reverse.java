@@ -1,10 +1,4 @@
-/******************************************************************************
 
-                            Online Java Compiler.
-                Code, Compile, Run and Debug java program online.
-Write your code in this editor and press "Run" button to execute it.
-
-*******************************************************************************/
 // java program to print the reverse of the given number // date: 28 june 2021
 
 
@@ -36,5 +30,6 @@ public class Reverse {
 
 // output:
 // Enter your number:
+// 12345
 // Reverse of input number: 54321
 
