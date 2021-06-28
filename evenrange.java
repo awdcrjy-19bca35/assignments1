@@ -21,7 +21,7 @@ public class Main
 			break;
 	    }
 	    }
-}
+} 
 // output:
 // Enter range lower and upper bounds:
 // 10
