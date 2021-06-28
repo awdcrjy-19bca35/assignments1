@@ -5,22 +5,30 @@ import java.io.*;
 import java.util.*;
 public class Main
 {
-	public static void main(String[] args) {
-	    int i;
+	public static void main(String[] args) {                                    
+	    int l,u;
 	    Scanner s=new Scanner(System.in);
-	    System.out.println("Enter range:");
-	    i=s.nextInt();
-	    for(int p=i;p>=0;p--)
-	    { if(p%2==0)
-	    {System.out.println(""+p);
-	    }}
-	    
-	}
+	    System.out.println("Enter range lower and upper bounds:");
+	    l=s.nextInt();
+		u=s.nextInt();       
+	    for(int k=u;k>=l;k--)
+	    { if(k%2==0)
+	    {
+	        System.out.println(k+"");
+	    }
+	    }
+	    }
 }
 
 // output:
-// Enter range:
-// 10
+// Enter range lower and upper bounds:
+// 0
+// 20
+// 20
+// 18
+// 16
+// 14
+// 12
 // 10
 // 8
 // 6
