@@ -1,4 +1,4 @@
-// program to find out biggest of 4 numbers // date: 26 june 2021  
+// program to find out biggest of 4 numbers // date: 25 june 2021  
 import java.io.*;
 import java.util.*;   // import statements
 public class Main
