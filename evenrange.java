@@ -10,12 +10,17 @@ public class Main
 	    Scanner s=new Scanner(System.in);
 	    System.out.println("Enter range lower and upper bounds:");
 	    l=s.nextInt();
-		u=s.nextInt();       
+		u=s.nextInt();  
+		while(l!=u)
+		{
 	    for(int k=u;k>=l;k--)
 	    { if(k%2==0)
 	    {
 	        System.out.println(k+"");
+	        
 	    }
+	    }
+			break;
 	    }
 	    }
 }
