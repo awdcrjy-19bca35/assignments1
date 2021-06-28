@@ -11,3 +11,8 @@ class Main
       { System.out.println("even");}
      } 
 } 
+
+
+
+// output: 
+// odd
