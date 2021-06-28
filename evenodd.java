@@ -1,4 +1,4 @@
-// java program to fing given number is even or odd
+// java program to fing given number is even or odd // 25june2021
 import java.io.*;
 class Main
 { 
