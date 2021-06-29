@@ -36,3 +36,7 @@ public class Reverse {
 // output:
 // 6789
 // 9876
+
+// output 2:
+// -123
+// -321
