@@ -34,9 +34,11 @@ public class Reverse {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
     }
 // output:
-// 6789
-// 9876
-
-// output 2:
 // -123
 // -321
+
+
+
+// output 2:
+// 6789
+// 9876
