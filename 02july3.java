@@ -1,7 +1,7 @@
 // java program to print the factorial of given number of test cases // date: 02 july 2021
 
 import java.util.*;
-public class Main
+public class TestCase 
 {
 	public static void main(String[] args) {
 	    int t,n,i;
