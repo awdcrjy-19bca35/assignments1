@@ -5,7 +5,7 @@ public class Main
 	public static void main(String[] args) {
 	    int n,sum=0;
 	    Scanner p=new Scanner(System.in);
-	    System.out.println("Enter array elements:");
+	    System.out.println("Enter array size and elements:");
 	    n=p.nextInt();
 	    int a[]= new int[n];
 	    for(int i=0;i<n;i++)
@@ -20,7 +20,7 @@ public class Main
 	}
 }
 /* output:
-Enter array elements:
+Enter array size and elements:
 
 5
 
