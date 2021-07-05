@@ -19,7 +19,7 @@ public class Main
 	         {
 	             if(a[i]>a[y])
 	             {
-	                  temp=a[i];
+	               temp=a[i];
                        a[i]=a[y];
                        a[y]=temp;
 	             }
