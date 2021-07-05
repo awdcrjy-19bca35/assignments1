@@ -18,8 +18,7 @@ public class Main
 	         for (int y=i+1;y<n;y++)
 	         {
 	             if(a[i]>a[y])
-	             {
-	                  temp=a[i];
+	             { temp=a[i];
                        a[i]=a[y];
                        a[y]=temp;
 	             }
