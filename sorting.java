@@ -1,4 +1,4 @@
-// program to print array elements in ascending order // date: 05 july 2021
+// program to print odd array elements in ascending order // date: 05 july 2021
 import java.util.*;
 import java.io.*;
 public class Main
@@ -25,30 +25,43 @@ public class Main
 	             }
 	         }
 	     }
-	    	System.out.println("Array elements in ascending order:");
+	    	System.out.println("Odd Array elements in ascending order:");
 	    for(int i=0;i<n;i++)
-	    {
+	    { if (a[i]%2==1)
 	        	System.out.print("   "+a[i]);
 	    }
 	
 	}
 }
+
 /* output:
 Enter array size and elements:
 
-5
+10
 
-99
+11
 
-221
+21
 
-13
+31
 
-65
+41
 
-79
+51
 
-Array elements in ascending order:
+09
 
-   13   65   79   99   221
+91
+
+92
+
+93
+
+56
+
+Odd Array elements in ascending order:
+
+   9   11   21   31   41   51   91   93
+
+
 
