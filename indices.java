@@ -1,4 +1,4 @@
-// java program to print sum of array elements between given indices
+// java program to print sum of array elements between given indices // date: 06 july 2021
 import java.util.*;
 public class Indices
 {
