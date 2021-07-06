@@ -19,7 +19,8 @@ public class Main
 	            if(a[i]==a[j])
 	            {
 	              a[j]=a[n-1];
-	            }n--;
+                      n--;
+	            }
 	        }
 	   }
 	   for(int i=0;i<n;i++)
