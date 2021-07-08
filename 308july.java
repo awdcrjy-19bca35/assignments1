@@ -15,7 +15,7 @@ public class Main
 		        a[i][j]=p.nextInt();
 		    }
 		}
-	  System.out.println("Transposed Matrix:");
+	        System.out.println("Transposed Matrix:");
 		for(int i=0;i<c;i++)
 		{
 		    for(int j=0;j<r;j++)
