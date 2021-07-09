@@ -21,7 +21,7 @@ public class Main
 		{                                                                      // {for( j=0;j<r;j++)
 		    for( j=0;j<r;j++)                                                  // {if(i==j)
 		    {                                                                  // {sum+=a[i][j];}
-		        if(i==j)                                                       // else if(i+j==r-1)
+		        if(i==j)                                                       //  if(i+j==r-1)
 		        {sum+=a[i][j];}                                                // {sum1+=a[i][j];}}}
 		    }
 		}
