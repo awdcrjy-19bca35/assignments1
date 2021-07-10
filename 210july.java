@@ -27,10 +27,11 @@ public class Weight
       }
       System.out.println("String weight without vowels:"); 
       System.out.println(weight);
+      int q=0;
       for (int i = 0; i < c.length; i++)
-      {
-      int q = (int) c[i] - 64;
-	    vweight = vweight + q;
+      { if((int)c[i]>64 && (int)c[i]<=90)
+         q = (int) c[i] - 64;
+	    vweight += q;
       }
       System.out.println("String weight with vowels included:"); 
       System.out.println(vweight);
