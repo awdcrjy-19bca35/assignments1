@@ -8,13 +8,13 @@ public class Main
 	    System.out.println("Enter your string:");
 	    String str=s.nextLine();
 	    String parts[]=str.split(" ");  // using split method 
-      String Str2 ="";               // taking new string 
+            String Str2 ="";               // taking new string 
         
-        for(String i: parts)         // using for each loop - taking each word of the string
-        {                            // using substring method to seperate the first letter
-            Str2+=i.substring(0,1).toUpperCase()+i.substring(1)+ " ";  
-        }
-        System.out.println(Str2);
+            for(String i: parts)         // using for each loop - taking each word of the string
+           {                            // using substring method to seperate the first letter
+             Str2+=i.substring(0,1).toUpperCase()+i.substring(1)+ " ";  
+           }
+            System.out.println(Str2);
 	}
 }
 /*---------------------------------------------------------------
