@@ -3,7 +3,7 @@ import java.lang.*;
 import java.util.*;
 class Main
 { 
-    public static void Sortdesc(String str) 
+    public static void Sortasc(String str) 
     { 
         char [] in= str.toCharArray();
         Arrays.sort(in);
@@ -22,7 +22,7 @@ class Main
         System.out.println("Enter your string");
         String st=sc.nextLine();
         Main obj=new Main();
-        obj.Sortdesc(st);
+        obj.Sortasc(st);
     }
 }
 /*_____________________________________________________________________________________
