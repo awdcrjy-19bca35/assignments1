@@ -2,18 +2,21 @@
 import java.lang.*;
 import java.util.*;
 public class Main
-{
-	public static void main(String[] args) {
-	    Scanner s=new Scanner(System.in);
-	    System.out.println("Enter your sentence:");
-	    String str=s.nextLine();
-	    String parts[]=str.split(" ");  
+{ public static void wordcount(String str) // method definition
+  {
+	String parts[]=str.split(" ");  
         int count=0;
-            for(String i: parts)        
-           {                            
-             count++;  
-           }
-            System.out.println("Number of words in given sentence are: "+count);
+         for(String i: parts)        
+          {                            
+            count++;  
+          }
+          System.out.println("Number of words in given sentence are: "+count);
+  }
+	public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter your sentence:");
+	String str=s.nextLine();
+        wordcount(str);  // method call
 	}
 }
 /*-------------------------------------------------------------------------------
